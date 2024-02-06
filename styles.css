@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --main-color: #65a30d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+}
+
+/* Footer */
+
+.bottom {
+    background-color: var(--main-color);
+    color: white;
+    justify-content: center;
+    gap: 1em;
+}
+
+
+.footer_main_picture {
+    width: 50em;
+}
