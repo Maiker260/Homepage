@@ -87,6 +87,7 @@
     max-width: 42em;
     min-height: 35em;
     box-shadow: 0px 0px 15px 4px #c1c1c1;
+    border-radius: 0.5em;
 }
 
 
@@ -95,6 +96,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0.4em 0.4em 0 0;
 }
 
 .project_info {
@@ -287,6 +289,16 @@
 
 }
 
+@media (max-width: 1010px) {
+    
+    .section_div {
+        padding: 3em;
+    }
+
+}
+
+
+
 @media (max-width: 500px) {
 
     .header_info {
@@ -309,6 +321,10 @@
     .about_description {
         margin-top: 0.7em;
         margin-bottom: 1em;
+    }
+
+    .about_icons {
+        justify-content: center;
     }
 
     .project_section {
@@ -341,8 +357,16 @@
         align-items: center;
     }
     
-    .section_div {
-        padding: 3em;
+    .first_project_title {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .project_info {
+        padding: 1em 1em;
     }
 
 }
